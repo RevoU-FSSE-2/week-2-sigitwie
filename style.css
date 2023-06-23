@@ -171,6 +171,7 @@
     padding: 30px 0;
     display: flex;
     gap: 20px;
+    justify-content: center;
   }
 
   .container-crucio {
@@ -182,6 +183,7 @@
     border: 1px solid;
     border-color: #bd8f07;
     border-radius: 20px;
+    flex-basis: 33.33%;
   }
 
   .container-imperio{
@@ -193,6 +195,7 @@
     border: 1px solid;
     border-color: #bd8f07;
     border-radius: 20px;
+    flex-basis: 33.33%;
   }
 
   .container-avada{
@@ -204,6 +207,7 @@
     border: 1px solid;
     border-color: #bd8f07;
     border-radius: 20px;
+    flex-basis: 33.33%;
   }
 
   .spell-detail{
@@ -436,6 +440,16 @@
 
     .spell-icon{
       max-height: 45%;
+    }
+
+    .container-avada {
+    flex-basis: 60%;
+    }
+    .container-crucio {
+      flex-basis: 60%;
+    }
+    .container-imperio{
+      flex-basis: 60%;
     }
 
     .spell-guide{
