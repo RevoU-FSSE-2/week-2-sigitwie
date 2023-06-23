@@ -443,13 +443,13 @@
     }
 
     .container-avada {
-    flex-basis: 60%;
+    flex-basis: 100%;
     }
     .container-crucio {
-      flex-basis: 60%;
+      flex-basis: 100%;
     }
     .container-imperio{
-      flex-basis: 60%;
+      flex-basis: 100%;
     }
 
     .spell-guide{
