@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wizard Portal</title>
+    <link rel="icon" type="image/x-icon" href="fav.ico">
+    <link rel="stylesheet" href="https://use.typekit.net/ine8xfl.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+            <span class="nav-logo">
+              <img class="logo" src="/images/logo.png"  alt="logo castile">
+              <a href="#" class="text-logo">Wizard Portal</a>
+            </span> 
+            <ul class="nav-menu">
+              <li class="nav-item"><a href="#">Home</a></li>
+              <li class="nav-item"><a href="#intro">About</a></li>
+              <li class="nav-item"><a href="#join">Join Us</a></li>
+            </ul>
+            
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+    </nav>
+
+    <header>
+            <section class="grid-section">
+              <div class="left-grid">
+                <img id="left-img" src="/images/image1.jpg" alt="Hogwarts Student learn Herbology class with Proffesor Garlick">
+              </div>
+              <div class="right-grid">
+                <img src="/images/image2.jpg" alt="Hogwarts Student learn how to use Mandrake Plant">
+                <img src="/images/image3.jpg" alt="Hogwarts Student learn how to fly with Broom Stick">
+                <img src="/images/image4.jpg" alt="A goblin named Deek">
+                <img src="/images/image5.jpg" alt="Hogwarts with Sorting Hat">
+               </div>
+            </section>
+
+            <iframe class="theme-song" style="border-radius:12px" 
+                src="https://open.spotify.com/embed/track/6CeCOC2zx1qS8mQNYHe6IM?utm_source=generator" 
+                width="100%" height="152" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+            </iframe>
+    
+            <h1 id="intro">🪄Alohomora!</h1>
+            <p class="web-description">Welcome to the magical world of Hogwarts Legacy! 
+                Our website is a haven for all the fans and enthusiasts of Hogwarts Legacy. 
+                Immerse yourself in the captivating universe of Harry Potter, 
+                where you can explore the iconic Hogwarts School of Witchcraft and Wizardry like never before.
+            </p>
+      </header>
+
+    <main>
+            <article>
+              <h2>Unforgivable Curses in Hogwarts Legacy</h2>
+              <p class="spell-guide"> 
+                Will you unleash the might of <b>unforgivable curses</b>, harnessing their incredible power to secure victory? 
+                Or will you rely on your skills with ordinary spells, proving that even the basics can lead you to triumph? 
+                The choice is yours!
+              </p>
+    
+              <section class="forbidden-spell">
+                <div class="container-crucio">
+                  <img class="spell-icon" src="/images/crucio.png" alt="Crucio">
+                  <p class="spell-detail">The Crucio curse inflicts excruciating pain on opponents, making it a tempting choice for incapacitating foes.</p>
+                </div>
+
+                <div class="container-imperio">
+                  <img class="spell-icon" src="/images/imperio.png" alt="Imperio">
+                  <p class="spell-detail">The Imperio is a powerful curse that grants the caster complete control over the victim's actions.</p>
+                </div>
+              
+                <div class="container-avada">
+                  <img class="spell-icon" src="/images/avada.png" alt="Avada Kedavra">
+                  <p class="spell-detail">Avada Kedavra instantly kills the targeted individual without leaving any physical marks.</p>
+                </div>
+              </section>
+            </article>
+            
+            <article>
+              <h2 id="section-video">How to Unlock Unforgivable Curses</h2>
+              <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/hrbOa79zyos" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </article>
+
+            <h2 class="form-title" id="join">Join Us!</h2>
+            <section class="fanclub-form">
+                <fieldset class="form-personal">
+                  <legend>Personal Information</legend>
+                  <div class="form-group">
+                      <label for="name">Name:</label>
+                      <input type="text" id="name" name="name" placeholder="Enter your name">
+                  </div>
+                  <div class="form-group">
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" name="email" placeholder="Enter your email">
+                  </div>
+                </fieldset>
+
+                <fieldset class="form-role">
+                  <legend>Select your role</legend>
+                  <div class="wizard-radio">
+                      <input type="radio" id="wizard" name="role" value="wizard">
+                      <label for="wizard">Wizard</label>
+                  </div>
+                  <div class="witch-radio">
+                      <input type="radio" id="witch" name="role" value="witch">
+                      <label for="witch">Witch</label>
+                  </div>
+                </fieldset>
+
+                <fieldset class="text-form">
+                  <legend>Additional Preferences</legend>
+                  <div class="form-group">
+                      <textarea id="description" name="description" placeholder="What you would like to be in the hogwart universe."></textarea>
+                  </div>
+                  <div class="form-group">
+                      <input type="checkbox" id="newsletter" name="newsletter">
+                      <label for="newsletter">Subscribe to newsletter</label>
+                  </div>
+                </fieldset>
+                <button type="submit">Join Now</button>
+            </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 <strong>SW</strong>. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
